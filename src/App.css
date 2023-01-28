@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+:root {
+  /* Colors */
+  --primary-color1: #495E57;
+  --primary-color2: #F4CE14;
+  --secondary-color1: #EE9972;
+  --secondary-color2: #FBDABB;
+  --secondary-color3: #EDEFEE;
+  --secondary-color4: #333333;
+  /* Typefaces */
+  --font-family1: 'Markazi Text';
+  --font-family2: 'Karla';
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
   display: flex;
-  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 1rem 0;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+header img {
+  width: 200px;
+  height: 76px;
+  object-fit: contain;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: var(--font-family2);
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+nav li {
+  list-style: none;
+  align-items: center;
+  padding: 1rem;
+}
+
+nav li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+}
+
+footer div > h4 {
+  font-family: var(--font-family2);
+  font-weight: 800;
+  font-size: 1.2rem;
+  color: var(--primary-color1);
+}
+
+footer img {
+  width: 200px;
+  height: 300px;
+  object-fit: contain;
+}
+
+footer li {
+  list-style: none;
+  line-height: 130%;
+  font-family: var(--font-family2);
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+footer li a {
+  text-decoration: none;
+  color: #000000;
 }

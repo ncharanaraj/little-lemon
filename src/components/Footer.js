@@ -13,15 +13,19 @@ function Footer(){
             </div>
             <div>
                 <h4>Contact</h4>
-                <li>Adress</li>
-                <li>Phone Number</li>
-                <li>Email</li>
+                <ul>
+                    <li>Adress</li>
+                    <li>Phone Number</li>
+                    <li>Email</li>
+                </ul>
             </div>
             <div>
                 <h4>Social Media Links</h4>
-                <li>Facebook</li>
-                <li>Instagram</li>
-                <li>Twitter</li>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                </ul>
             </div>
         </>
     );
