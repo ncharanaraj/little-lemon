@@ -1,4 +1,4 @@
-import footerLogo from "../images/footer-logo.png"
+import footerLogo from "../assets/images/footer-logo.png"
 import Nav from "./Nav";
 
 function Footer(props){

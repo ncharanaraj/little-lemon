@@ -18,7 +18,7 @@ function App() {
       </main>
       <footer>
         <Footer
-          address="Sirsi, Karnataka - 581402"
+          address="Sirsi, Karnataka"
           phno="+91 - 78######75"
           email="contact@littlelemon.com"
         />
