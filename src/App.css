@@ -12,11 +12,11 @@
 }
 
 header {
+  padding: 1.4rem 0;
   display: flex;
-  justify-content: space-evenly;
-  padding: 1rem 0;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: space-evenly;
 }
 
 header img {
@@ -27,21 +27,22 @@ header img {
 
 nav ul {
   display: flex;
+  align-items: flex-start;
+  column-gap: 1.7rem;
   flex-wrap: wrap;
-  font-family: var(--font-family2);
-  font-weight: 700;
-  font-size: 1.2rem;
+  justify-content: center;
 }
 
 nav li {
-  list-style: none;
-  align-items: center;
-  padding: 1rem;
+  font-family: var(--font-family2);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 2rem;
 }
 
-nav li a {
-  color: #000000;
-  text-decoration: none;
+nav li a:hover {
+  text-decoration: underline;
 }
 
 
@@ -49,33 +50,39 @@ nav li a {
 
 footer {
   display: flex;
-  justify-content: space-evenly;
+  padding: 2rem 0;
   flex-wrap: wrap;
-  padding: 1rem 0;
-}
-
-footer div > h4 {
-  font-family: var(--font-family2);
-  font-weight: 800;
-  font-size: 1.2rem;
-  color: var(--primary-color1);
+  justify-content: center;
 }
 
 footer img {
-  width: 200px;
-  height: 300px;
+  width: 100px;
+  height: 150px;
   object-fit: contain;
 }
 
-footer li {
-  list-style: none;
-  line-height: 130%;
+footer div {
+  width: 15rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+footer h4 {
   font-family: var(--font-family2);
-  font-size: 1.2rem;
+  font-weight: 800;
+  font-size: 1.2em;
+  color: var(--primary-color1);
+  margin-bottom: 0.5rem;
+}
+
+div > ul > li {
+  line-height: 1.5rem;
+  font-family: var(--font-family2);
+  font-size: 1rem;
   font-weight: 500;
 }
 
-footer li a {
-  text-decoration: none;
-  color: #000000;
-}
+
+
+
+

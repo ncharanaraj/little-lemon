@@ -1,7 +1,7 @@
 import footerLogo from "../images/footer-logo.png"
 import Nav from "./Nav";
 
-function Footer(){
+function Footer(props){
     return(
         <>
             <div>
@@ -14,9 +14,9 @@ function Footer(){
             <div>
                 <h4>Contact</h4>
                 <ul>
-                    <li>Adress</li>
-                    <li>Phone Number</li>
-                    <li>Email</li>
+                    <li>Adress: {props.address}</li>
+                    <li>Phone Number: {props.phno}</li>
+                    <li>Email: {props.email}</li>
                 </ul>
             </div>
             <div>
