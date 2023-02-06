@@ -11,12 +11,12 @@ function FeedbackCard(props){
                     <div>
                         <img src={props.profile} alt={props.alt} />
                     </div>
-                    <div>
+                    <div className="profileData">
                         <h4>{props.fullname}</h4>
                         <p>{props.username}</p>
                     </div>
                 </div>
-                <div>
+                <div className="feedback-comment">
                     <p>{props.desc}</p>
                 </div>
             </div>

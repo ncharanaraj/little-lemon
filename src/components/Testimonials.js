@@ -25,7 +25,7 @@ function Testimonials(){
                         />
                         <FeedbackCard
                             profile={thirdPerson}
-                            fullname="Emily Master"
+                            fullname="Emily Masterson"
                             username="Master-Emily"
                             desc="“Best Feta Salad in town. Flawless everytime!”"
                         />

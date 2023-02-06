@@ -2,7 +2,7 @@
     width: 200px;
     background-color: #FFFFFF;
     border-radius: 16px;
-    padding: 1rem;
+    padding: 2.5rem;
     display: flex;
     flex-direction: column;
     row-gap: 1.3rem;
@@ -20,3 +20,22 @@
     object-fit: cover;
     border-radius: 50%;
 }
+
+.profileData {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.profileData p {
+    color: #6E6F6E;
+}
+
+.feedback-comment > p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #6E6F6E;
+}
+
+

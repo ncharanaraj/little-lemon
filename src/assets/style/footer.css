@@ -1,0 +1,33 @@
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+
+.footer-container li {
+    list-style: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%;
+}
+
+.footer-container h5 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    color: #495E57;
+}
+
+.footerLogo img {
+    width: 165px;
+    height: 215px;
+    object-fit: contain;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+

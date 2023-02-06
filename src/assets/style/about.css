@@ -1,0 +1,27 @@
+.about-title h1,.place{
+    color: #333333;
+}
+
+.about-container {
+    display: flex;
+}
+
+.about-desc {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+}
+
+.about-info {
+    max-width: 80%;
+}
+
+.little-lemon_pic {
+    display: flex;
+}
+
+.little-lemon_pic img {
+    width: 270px;
+    height: 340px;
+    object-fit: cover;
+}
