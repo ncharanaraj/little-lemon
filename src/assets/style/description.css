@@ -1,0 +1,30 @@
+.hero {
+    max-width: 70vw;
+    margin: auto;
+    padding: 2.5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 1rem;
+}
+
+article {
+    /* margin-top: 1.5rem; */
+    color: #EDEEEE;
+    max-width: 50%;
+}
+
+.hero-dp > img {
+    width: 20vw;
+    height: 40vh;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+
+

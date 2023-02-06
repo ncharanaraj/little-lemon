@@ -1,10 +1,16 @@
 import logo from "../assets/images/logo.png"
 
 function Header(){
+
+    const imageStyle = {
+        width: "193px",
+        height: "55px",
+    }
+
     return(
-        <div>
-            <img src={logo} alt="logo" key={logo} />
-        </div>
+        <>
+            <img src={logo} alt="logo" key={logo} style={imageStyle} />
+        </>
     );
 };
 

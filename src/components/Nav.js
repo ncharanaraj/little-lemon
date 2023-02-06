@@ -1,13 +1,24 @@
+import { NavLink } from 'react-router-dom';
+import "../assets/style/nav.css"
+import Header from './Header';
+
 function Nav(){
     return(
-        <ul>
-            <li><a href="#Home">Home</a></li>
-            <li><a href="#About">About</a></li>
-            <li><a href="#Menu">Menu</a></li>
-            <li><a href="#Reservation">Reservation</a></li>
-            <li><a href="#Order-Online">Order Online</a></li>
-            <li><a href="#Login">Login</a></li>
-        </ul>
+        <>
+            <nav>
+                <div>
+                    <Header />
+                </div>
+                <div>
+                    <NavLink className="navLink" to="/">Home</NavLink>
+                    <NavLink className="navLink" to="/about">About</NavLink>
+                    <NavLink className="navLink" to="/menu">Menu</NavLink>
+                    <NavLink className="navLink" to="/booking-page">Reservation</NavLink>
+                    <NavLink className="navLink" to="/order-online">Order Online</NavLink>
+                    <NavLink className="navLink" to="/login">Login</NavLink>
+                </div>
+            </nav>
+        </>
     );
 }
 

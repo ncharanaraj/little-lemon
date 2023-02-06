@@ -1,48 +1,31 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400;500&display=swap');
 
-:root {
-  --primary-green: #495e57;
-  --primary-yellow: #F4CE14;
-  --secondary-dark-peach: #EE9972;
-  --secondary-light-peach: #FBDABB;
-  --highlight-soft-peach: #EDEFEE;
-  --highlight-dark-gray: #333333;
-  --heading-font-family: Markazi Text;
-  --heading-font-size: 5.3rem;
-  --description-font-weight: normal;
-  --description-font-size: 3.3rem; /* 40pt */
-  --lead-font-family: Karla;
-  --lead-font-size: 1.5rem;
-  --section-title-weight: bolder;
-  --section-title-size: 1.2rem;
-  --section-category-weight: bolder;
-  --section-category-size: 1rem;
-  --card-title-weight: bold;
-  --card-title-size: 1.5rem; /* 18pt */
-  --card-text-weight: normal;
-  --card-text-size: 1.3rem; /* 16pt */
-  --card-description-line-height: 1.5;
-  --highlight-text-weight: medium;
-  --highlight-text-size: 1.3rem; /* 16pt */
-  --border-radius: 1rem;
-  --container-margin: 1.2rem 18.2rem;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: var(--lead-font-family);
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
 }
 
-li {
-  list-style: none;
+h1 {
+    color: #F4CE14;
+    font-family: 'Markazi Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 4rem;
 }
 
-li a {
-  text-decoration: none;
+span {
+    color: #FFFFFF;
+    font-family: 'Markazi Text';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
 }
-
-
-
