@@ -1,0 +1,22 @@
+.feedback-card_container {
+    width: 200px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.3rem;
+}
+
+.profile-info {
+    display: flex;
+    column-gap: 0.8rem;
+    align-items: center;
+}
+
+.profile-info img {
+    width: 34px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+}

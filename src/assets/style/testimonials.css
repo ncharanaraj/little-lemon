@@ -1,0 +1,17 @@
+.testimonial-container {
+    max-width: 70vw;
+    margin: auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5rem;
+}
+
+.testimonial-container > h2 {
+    text-align: center;
+}
+
+.feedback-cards {
+    display: flex;
+    justify-content: space-between;
+}
