@@ -12,7 +12,7 @@ function Description(props) {
                         <span>Chicago</span>
                     </div>
                     <article>{props.bio}</article>
-                    <Button title="Reserve a Table" />
+                    <Button title="Reserve a Table"  />
                 </div>
                 <div className="hero-dp">
                     <img src={RestaurantFood} alt="Restaurant-Food" />

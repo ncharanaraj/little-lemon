@@ -37,3 +37,7 @@ label {
     color: #495E57;
     cursor: pointer;
   }
+
+  .error {
+    color: red;
+  }
