@@ -1,8 +1,17 @@
+import BookingForm from "./BookingForm";
+
 function BookingPage(){
+
+    const booking = {
+        maxWidth: "70vw",
+        margin: "2rem auto",
+        padding: "1rem"
+    }
+
     return(
-        <>
-            <h1>Booking</h1>
-        </>
+        <div style={booking}>
+            <BookingForm />
+        </div>
     );
 }
 
